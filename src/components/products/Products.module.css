@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  gap: 2rem;
+}
+.container > img {
+  width: 10rem;
+  position: absolute;
+  top: -12%;
+  left: 28%;
+}
+.products {
+  display: grid;
+  grid-template-columns: 25% auto;
+  width: 90%;
+}
+.products .menu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.products .menu > li:hover {
+  color: var(--pink);
+  cursor: pointer;
+}
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  height: 25rem;
+  overflow: scroll;
+  grid-gap: 2rem;
+  justify-content: space-between;
+}
+
+.product {
+  width: 12rem;
+  height: 8rem;
+  position: relative;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 8px;
+  display: flex;
+  padding: 1rem;
+}
+.product > img {
+  top: 3rem;
+  height: 11rem;
+  width: 6rem;
+}
