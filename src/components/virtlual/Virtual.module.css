@@ -36,3 +36,23 @@
 .wrapper{
     width: 30rem;
 }
+
+@media  screen and (max-width:856px){
+    .virtual{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: 1rem;
+   
+
+    }
+    .wrapper{
+        width: 90vw;
+    }
+    .left{
+        text-align: center;
+    }
+}

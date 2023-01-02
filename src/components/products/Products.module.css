@@ -53,3 +53,37 @@
   height: 11rem;
   width: 6rem;
 }
+
+@media screen  and (max-width:856px){
+    .container{
+        gap: 1rem;
+    }
+    .container>img{
+    display: none;
+ } 
+ .products{
+ grid-template-columns: none;
+ gap: 1rem;
+
+ }  
+ .menu{
+
+    flex-direction: row;
+
+ } 
+
+}
+
+@media screen  and (max-width:640px){
+ .menu{
+    margin-left: -2rem;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 1.2rem;
+ } 
+ .container h1{
+    text-align: center;
+    font-size: 1rem;
+ }   
+}

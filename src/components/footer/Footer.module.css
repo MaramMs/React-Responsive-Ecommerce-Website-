@@ -69,3 +69,25 @@ margin-top: 5rem;
     margin-top: 0.5rem;
     width: 100%;
 }
+
+@media screen  and (max-width: 768px) {
+    .cfooter{
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        font-size: 1.7rem;
+        gap: 2rem;
+
+    }
+}
+
+@media screen  and (max-width: 640px) {
+    .cfooter{
+   justify-content: center;
+
+
+    }
+    .logo{
+        display: none;
+    }
+}

@@ -77,3 +77,14 @@ font-size: 1rem;
 font-weight: bold;
 }
 
+@media screen and (max-width: 640px) {
+    .wrapper{
+     grid-template-columns: 1fr;
+    }
+    .wrapper>img{
+        width: 80vw;
+    }
+    .wrapper .container{
+      text-align: center;
+    }
+}
